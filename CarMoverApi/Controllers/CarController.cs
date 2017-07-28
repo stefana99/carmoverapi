@@ -36,8 +36,7 @@ namespace CarMoverApi.Controllers
             }
             else
             {
-                user.Cars = value.Cars;
-                
+                user.Cars = value.Cars; 
                 _context.Update(user);
             }
             _context.SaveChanges();
