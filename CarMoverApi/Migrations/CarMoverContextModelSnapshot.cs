@@ -23,24 +23,27 @@ namespace CarMoverApi.Migrations
 
                     b.Property<string>("Plate");
 
-                    b.Property<long?>("UserFaceBookUserId");
+                    b.Property<int?>("UserId");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserFaceBookUserId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Cars");
                 });
 
             modelBuilder.Entity("CarMoverApi.Models.User", b =>
                 {
-                    b.Property<long>("FaceBookUserId");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("FaceBookUserId");
 
                     b.Property<string>("MobileNumber");
 
                     b.Property<string>("Name");
 
-                    b.HasKey("FaceBookUserId");
+                    b.HasKey("Id");
 
                     b.ToTable("Users");
                 });
@@ -49,7 +52,7 @@ namespace CarMoverApi.Migrations
                 {
                     b.HasOne("CarMoverApi.Models.User", "User")
                         .WithMany("Cars")
-                        .HasForeignKey("UserFaceBookUserId");
+                        .HasForeignKey("UserId");
                 });
         }
     }

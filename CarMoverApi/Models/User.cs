@@ -6,8 +6,6 @@ namespace CarMoverApi.Models
 {
     public class User
     {
-        [Required]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
         public string FaceBookUserId { get; set; }
         public string Name { get; set; }
