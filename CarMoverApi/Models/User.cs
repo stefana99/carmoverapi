@@ -8,7 +8,8 @@ namespace CarMoverApi.Models
     {
         [Required]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public long FaceBookUserId { get; set; }
+        public int Id { get; set; }
+        public string FaceBookUserId { get; set; }
         public string Name { get; set; }
         public string MobileNumber { get; set; }
         public ICollection<Car> Cars { get; set; }
