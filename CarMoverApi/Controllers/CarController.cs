@@ -28,7 +28,9 @@ namespace CarMoverApi.Controllers
         [HttpPost]
         public IActionResult Register([FromBody]User value)
         {
-            var user = _context.Users.SingleOrDefault(x => x.FaceBookUserId == value.FaceBookUserId);
+            var users = _context.Users.Include(p => p.Cars);
+            
+            var user = users.SingleOrDefault(x => x.FaceBookUserId == value.FaceBookUserId);
             if (user == null)
             {
                 _context.Users.Add(value);
@@ -36,7 +38,14 @@ namespace CarMoverApi.Controllers
             }
             else
             {
-                user.Cars = value.Cars; 
+                user.MobileNumber = value.MobileNumber;
+                foreach (var item in value.Cars)
+                {
+                    if(!user.Cars.Any(p => p.Plate.ToUpper().Trim().Contains(item.Plate)))
+                    {
+                        user.Cars.Add(item);
+                    }
+                }
                 _context.Update(user);
             }
             _context.SaveChanges();
