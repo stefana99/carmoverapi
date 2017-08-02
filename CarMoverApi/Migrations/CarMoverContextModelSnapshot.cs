@@ -37,11 +37,19 @@ namespace CarMoverApi.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("ChannelId");
+
+                    b.Property<string>("ConversationId");
+
                     b.Property<string>("FaceBookUserId");
 
                     b.Property<string>("MobileNumber");
 
                     b.Property<string>("Name");
+
+                    b.Property<string>("RecipientId");
+
+                    b.Property<string>("ServiceUrl");
 
                     b.HasKey("Id");
 

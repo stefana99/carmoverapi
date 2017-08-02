@@ -5,8 +5,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarMoverApi/bin/Debug/netcoreapp1.1/CarMoverApi.dll" afterPath="$PROJECT_DIR$/CarMoverApi/bin/Debug/netcoreapp1.1/CarMoverApi.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.dll" afterPath="$PROJECT_DIR$/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.pdb" afterPath="$PROJECT_DIR$/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarMoverApi/obj/Debug/netcoreapp1.1/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/CarMoverApi/obj/Debug/netcoreapp1.1/CoreCompileInputs.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CarMoverApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CarMoverApi/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarMoverApi/Controllers/CarController.cs" afterPath="$PROJECT_DIR$/CarMoverApi/Controllers/CarController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarMoverApi/Migrations/CarMoverContextModelSnapshot.cs" afterPath="$PROJECT_DIR$/CarMoverApi/Migrations/CarMoverContextModelSnapshot.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarMoverApi/Models/User.cs" afterPath="$PROJECT_DIR$/CarMoverApi/Models/User.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.csproj.FileListAbsolute.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +21,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CarMoverApi/Models/User.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
-                <marker date="1501541384000" expanded="false" signature="6:130" ph="..." />
-                <marker date="1501541384000" expanded="true" signature="160:426" ph="{...}" />
-                <marker date="1501541384000" expanded="true" signature="184:424" ph="{...}" />
+                <marker date="1501712669000" expanded="true" signature="6:130" ph="..." />
+                <marker date="1501712669000" expanded="true" signature="160:618" ph="{...}" />
+                <marker date="1501712669000" expanded="true" signature="184:616" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -48,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CarController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CarMoverApi/Controllers/CarController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="227">
+              <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
               <folding>
                 <marker date="1501706915000" expanded="false" signature="6:147" ph="..." />
                 <marker date="1501706915000" expanded="true" signature="182:1640" ph="{...}" />
@@ -123,9 +125,9 @@
         <option value="$PROJECT_DIR$/CarMoverApi/appsettings.json" />
         <option value="$PROJECT_DIR$/CarMoverApi/Startup.cs" />
         <option value="$PROJECT_DIR$/CarMoverApi/Models/CarMoverContext.cs" />
-        <option value="$PROJECT_DIR$/CarMoverApi/Models/User.cs" />
         <option value="$PROJECT_DIR$/CarMoverApi/Models/Car.cs" />
         <option value="$PROJECT_DIR$/CarMoverApi/Controllers/CarController.cs" />
+        <option value="$PROJECT_DIR$/CarMoverApi/Models/User.cs" />
       </list>
     </option>
   </component>
@@ -307,7 +309,7 @@
       <workItem from="1501187558998" duration="3574000" />
       <workItem from="1501244636991" duration="6367000" />
       <workItem from="1501273025871" duration="315000" />
-      <workItem from="1501538849217" duration="6222000" />
+      <workItem from="1501538849217" duration="7551000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1501273133561</created>
@@ -337,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501706590325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some fixes to api">
+      <created>1501706936694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501706936694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16478000" />
+    <option name="totallyTimeSpent" value="17807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,9 +425,9 @@
         <state relative-caret-position="195">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <marker date="1501541384000" expanded="false" signature="6:130" ph="..." />
-            <marker date="1501541384000" expanded="true" signature="160:426" ph="{...}" />
-            <marker date="1501541384000" expanded="true" signature="184:424" ph="{...}" />
+            <marker date="1501712669000" expanded="true" signature="6:130" ph="..." />
+            <marker date="1501712669000" expanded="true" signature="160:618" ph="{...}" />
+            <marker date="1501712669000" expanded="true" signature="184:616" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -499,9 +508,9 @@
         <state relative-caret-position="225">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <marker date="1501541384000" expanded="false" signature="6:130" ph="..." />
-            <marker date="1501541384000" expanded="true" signature="160:426" ph="{...}" />
-            <marker date="1501541384000" expanded="true" signature="184:424" ph="{...}" />
+            <marker date="1501712669000" expanded="true" signature="6:130" ph="..." />
+            <marker date="1501712669000" expanded="true" signature="160:618" ph="{...}" />
+            <marker date="1501712669000" expanded="true" signature="184:616" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -589,9 +598,9 @@
         <state relative-caret-position="165">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <marker date="1501541384000" expanded="false" signature="6:130" ph="..." />
-            <marker date="1501541384000" expanded="true" signature="160:426" ph="{...}" />
-            <marker date="1501541384000" expanded="true" signature="184:424" ph="{...}" />
+            <marker date="1501712669000" expanded="true" signature="6:130" ph="..." />
+            <marker date="1501712669000" expanded="true" signature="160:618" ph="{...}" />
+            <marker date="1501712669000" expanded="true" signature="184:616" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -717,18 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CarMoverApi/Models/User.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <marker date="1501541384000" expanded="false" signature="6:130" ph="..." />
-            <marker date="1501541384000" expanded="true" signature="160:426" ph="{...}" />
-            <marker date="1501541384000" expanded="true" signature="184:424" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CarMoverApi/Models/Car.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -742,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CarMoverApi/Controllers/CarController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        <state relative-caret-position="227">
+          <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
           <folding>
             <marker date="1501706915000" expanded="false" signature="6:147" ph="..." />
             <marker date="1501706915000" expanded="true" signature="182:1640" ph="{...}" />
@@ -755,6 +752,18 @@
             <marker date="1501706915000" expanded="true" signature="1155:1543" ph="{...}" />
             <marker date="1501706915000" expanded="true" signature="1274:1490" ph="{...}" />
             <marker date="1501706915000" expanded="true" signature="1383:1472" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarMoverApi/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <marker date="1501712669000" expanded="true" signature="6:130" ph="..." />
+            <marker date="1501712669000" expanded="true" signature="160:618" ph="{...}" />
+            <marker date="1501712669000" expanded="true" signature="184:616" ph="{...}" />
           </folding>
         </state>
       </provider>
