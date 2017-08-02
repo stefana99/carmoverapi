@@ -20,7 +20,8 @@ namespace CarMoverApi.Controllers
         [HttpGet]
         public IEnumerable<Car> Get(string plate)
         {
-            return _context.Cars.Where(x => x.Plate == plate).Include(x => x.User);
+            var tmpPlate = plate.ToUpper().Trim().Replace(" ", "").Replace("-", "");
+            return _context.Cars.Where(x => x.Plate == tmpPlate).Include(x => x.User);
         }
 
         // POST

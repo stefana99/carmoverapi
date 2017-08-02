@@ -6,4 +6,4 @@
 /Users/stefanjohann/RiderProjects/CarMoverApi/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.dll
 /Users/stefanjohann/RiderProjects/CarMoverApi/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.pdb
 /Users/stefanjohann/RiderProjects/CarMoverApi/CarMoverApi/obj/Debug/netcoreapp1.1/CarMoverApi.csprojResolveAssemblyReference.cache
-/Users/stefanjohann/RiderProjects/CarMoverApi/CarMoverApi/bin/Debug/netcoreapp1.1/CarMoverApi.pdb
+/Users/stefanjohann/RiderProjects/CarMoverApi/CarMoverApi/bin/Debug/netcoreapp1.1/obj/Debug/netcoreapp1.1/CarMoverApi.pdb
