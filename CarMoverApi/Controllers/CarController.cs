@@ -39,6 +39,7 @@ namespace CarMoverApi.Controllers
             }
             else
             {
+                user.Name = value.Name;
                 user.MobileNumber = value.MobileNumber;
                 user.ChannelId = value.ChannelId;
                 user.ConversationId = value.ConversationId;
