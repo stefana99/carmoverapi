@@ -40,6 +40,10 @@ namespace CarMoverApi.Controllers
             else
             {
                 user.MobileNumber = value.MobileNumber;
+                user.ChannelId = value.ChannelId;
+                user.ConversationId = value.ConversationId;
+                user.RecipientId = value.RecipientId;
+                user.ServiceUrl = value.ServiceUrl;
                 foreach (var item in value.Cars)
                 {
                     if(!user.Cars.Any(p => p.Plate.ToUpper().Trim().Contains(item.Plate)))
